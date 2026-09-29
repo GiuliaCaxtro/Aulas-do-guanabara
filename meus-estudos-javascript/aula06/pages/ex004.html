@@ -13,10 +13,16 @@
 <body>
     
     <script>
-        var nome = prompt("Qual seu nome?")
+        let nome = prompt("Qual seu nome?")
         document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras!<br/>`)
         document.write(`Seu nome em maiúscula é ${nome.toUpperCase()}!<br/>`)
         document.write(`Seu nome em minúscula é ${nome.toLowerCase()}!`)
+
+
+        // toFixed(2) - serve para definir o número de casas decimais que queremos mostrar.
+        //toFixed(2).replace(".",",") - serve para substituir o ponto por vírgula, caso seja necessário.
+        
         </script>
+
 </body>
 </html>

@@ -20,3 +20,4 @@ var corpo = window.document.bodyvar
         //corpo.style.background = 'black'
         //window.document.write(p1.innerHTML)
         //window.alert(p1.innerText)  
+ 
